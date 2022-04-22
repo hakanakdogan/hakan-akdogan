@@ -17,9 +17,9 @@ const weather = async (lat, long) => {
 
 
             return {
-                temp,
-                pressure,
-                humidity
+                sicaklik:`${temp} Santigrat Derece`,
+                basinc: pressure,
+                nem: humidity
             }
         }
 
